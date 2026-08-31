@@ -1,86 +1,80 @@
-🧬 Patient Blood Test Analyzer
+## **📌 Project Overview**
 
-<p align="center">
-  <img src="patient_blood_analyzer.png" alt="Patient Blood Test Analyzer">
-</p>
+**Patient Blood Test Analyzer** is a Python-based **Computational Biology and Biological Data Analysis project** developed to analyze structured patient blood-test data.
 
-<p align="center">
-  <b>Computational Biology • Python • Data Analysis • Statistical Analysis • Data Visualization</b>
-</p>
-
-📌 Project Overview
-
-Patient Blood Test Analyzer is a Python-based Computational Biology and Biological Data Analysis project developed to analyze structured patient blood-test data.
-
-The project demonstrates a complete analytical workflow starting from patient data collection and progressing through Python dictionaries, functions, conditional analysis, NumPy calculations, percentile analysis, Pandas DataFrames, filtering, GroupBy analysis, statistical summaries, and Matplotlib visualizations.
+The project demonstrates a complete analytical workflow starting from patient data collection and progressing through **Python dictionaries, functions, conditional analysis, NumPy calculations, percentile analysis, Pandas DataFrames, filtering, GroupBy analysis, statistical summaries, and Matplotlib visualizations**.
 
 The analyzer works with important patient parameters including:
 
-🧑 Patient Name
-
-🎂 Age
-
-🩸 Blood Group
-
-🧬 Hemoglobin
-
-🧪 Glucose
-
-🧪 Cholesterol
+- 🧑 **Patient Name**
+- 🎂 **Age**
+- 🩸 **Blood Group**
+- 🧬 **Hemoglobin**
+- 🧪 **Glucose**
+- 🧪 **Cholesterol**
 
 The purpose of this project is to demonstrate how programming and data-analysis techniques can be applied to structured biological datasets.
 
-🎯 Project Objectives
+---
+
+## **🎯 Project Objectives**
 
 The project is designed to:
 
-Store patient information using Python Dictionaries
+- **Store patient information** using Python Dictionaries
+- **Build reusable analysis** using Functions
+- **Apply If / Elif / Else conditions**
+- **Perform numerical calculations** using NumPy
+- **Calculate Percentiles**
+- **Create structured Pandas DataFrames**
+- **Filter patients** using biological measurements
+- **Perform GroupBy analysis**
+- **Generate descriptive statistical summaries**
+- **Create meaningful data visualizations**
+- **Develop practical Computational Biology skills**
 
-Build reusable analysis using Functions
+---
 
-Apply If / Elif / Else conditions
+## **🧰 Technologies & Libraries**
 
-Perform numerical calculations using NumPy
+| **Technology** | **Purpose** |
+|---|---|
+| 🐍 **Python** | Core programming and analysis |
+| 🔢 **NumPy** | Numerical and statistical calculations |
+| 🐼 **Pandas** | Data manipulation and DataFrame analysis |
+| 📊 **Matplotlib** | Data visualization |
+| 📓 **Jupyter Notebook** | Interactive development and visualization |
 
-Calculate Percentiles
+---
 
-Create structured Pandas DataFrames
+## **🔬 Patient Data Parameters**
 
-Filter patients using biological measurements
+| **Parameter** | **Description** |
+|---|---|
+| **Name** | Patient identification |
+| **Age** | Patient age |
+| **Blood_Group** | Patient blood-group category |
+| **Hemoglobin** | Hemoglobin measurement |
+| **Glucose** | Blood glucose measurement |
+| **Cholesterol** | Cholesterol measurement |
 
-Perform GroupBy analysis
+---
 
-Generate descriptive statistical summaries
+## **⚙️ Core Features**
 
-Create meaningful data visualizations
+### **🗂️ Patient Data Using Dictionary**
 
-Develop practical Computational Biology skills
+Patient information is initially represented using a Python dictionary containing key-value pairs.
 
-🧰 Technologies & Libraries
-
-Technology
-
-Purpose
-
-🐍 Python
-
-Core programming and analysis
-
-🔢 NumPy
-
-Numerical and statistical calculations
-
-🐼 Pandas
-
-Data manipulation and DataFrame analysis
-
-📊 Matplotlib
-
-Data visualization
-
-📓 Jupyter Notebook
-
-Interactive development and visualization
+```python
+patient = {
+    "Name": "Ali",
+    "Age": 25,
+    "Blood_Group": "A+",
+    "Hemoglobin": 14.2,
+    "Glucose": 95,
+    "Cholesterol": 180
+}
 
 🔬 **Patient Data Parameters**
 
