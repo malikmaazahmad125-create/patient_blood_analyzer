@@ -406,9 +406,9 @@ The program will generate the patient analysis, DataFrames, filtering results, s
 ```text
 Patient-Blood-Test-Analyzer/
 │
-├── patient_blood_analyzer.py
+├── Patient_Blood_Analyzer.py
+├── README.md 
 ├── patient_blood_analyzer.png
-├── README.md
 └── requirements.txt
 ```
 
